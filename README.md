@@ -58,7 +58,7 @@ Helper function to convert detection data parsed by parse_fathom_files() to repl
 install.packages("remotes")
 
 # Use remotes to install the FathomR package from github repo
-remotes::install_github("hughpederson/FathomR", 
+remotes::install_github("Fish-Tracking-Data-Team/FathomR", 
                         build_vignettes = TRUE,
                         dependencies = TRUE)
 ```
